@@ -7,7 +7,7 @@ session = requests.Session()
 session.verify = False
 
 #URL HERE
-domain_name = "cckm.acme.net
+domain_name = "cckm.acme.net"
 cckm_url = "https://" + domain_name + ":8443/kmaas/"
 resp = session.get(cckm_url)
 
